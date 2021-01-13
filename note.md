@@ -74,10 +74,20 @@ TCPの送信側では、一度に転送可能なデータ量を表すパラメ�
 ## RARP:Reverse-ARP
 MAC アドレスから IP アドレスを取得。
 
-## ICMPInternet Control Message Protocol
+## ICMP Internet Control Message Protocol
 
 IP パケット（データ）の送信処理時のエラー通知・制御のためのプロトコル。
 Ping コマンドで用いられる。
+
+## Pingコマンドとは
+
+Pingコマンドとはネットワークを確認したいホストに対してIPパケットを送信して、通信ができるかどうかを確認するコマンド
+
+## DHCPとは「Dynamic Host Configuration Protocol
+ IPv4ネットワークにおいて通信用の基本的な設定を自動的に行うためのプロトコル
+
+ 最初はDHCPクライアントは自身のIPアドレスも知らなければ、DHCPサーバのIPアドレスも知らないので全ての宛先（ブロードキャスト）にDHCP Discoverメッセージを送信して、ネットワーク全体に問い合わせをする。
+ ブロードキャストをサポートしているプロトコルであるUDPを使う。
 
 ## SMTP：Simple Mail Trasfer Protocol
 
@@ -93,6 +103,15 @@ Ping コマンドで用いられる。
 メール受信用。Webメールとかは大体これ。
 受信してもサーバーから消えないが上限がある。
 
+## ルーティングプロトコル 【 routing protocol 】
+ルーティングプロトコルとは、ネットワーク上の経路選択を行うルータ間の通信に用いられるプロトコル（通信規約）の一つで、経路情報を交換するためのもの。通常はインターネット上でのルーティングに用いられるものを指す。
+
+## NTPとは
+　NTP（Network Time Protocol）は、コンピュータに内蔵されているシステムクロックをネットワークを介して正しく同期させるためのプロトコル。NTPにより時刻同期を行うことで指定時間に正しくサービスを動作させたり、出力ログを正しく管理できたり、証明書を利用した認証なども正しく行うことができます。
+
+## Internet Relay Chatとは
+
+サーバを介してクライアントとクライアントが会話をする枠組みの名称
 ## 参考
 
 TCP/IP
@@ -102,3 +121,16 @@ https://eh-career.com/engineerhub/entry/2020/02/13/103000
 IPとは
 
 https://e-words.jp/w/IP.html
+
+DHCPとは
+
+https://www.infraexpert.com/study/tcpip13.html
+
+
+NTPとは
+
+https://www.infraexpert.com/study/tcpip25.html
+
+
+ICMPとは
+https://www.infraexpert.com/study/tcpip4.html
