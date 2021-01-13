@@ -134,3 +134,7 @@ https://www.infraexpert.com/study/tcpip25.html
 
 ICMPとは
 https://www.infraexpert.com/study/tcpip4.html
+
+
+IPアドレスとは(歴史も)
+https://qiita.com/mogulla3/items/efb4c9328d82d24d98e6
